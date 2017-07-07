@@ -1,0 +1,5 @@
+devcork.toflidium.com localhost:80 {
+	
+	proxy / http://cookingisfun.ie
+
+}

@@ -1,0 +1,12 @@
+devcork.toflidium.com localhost:80 {
+	
+
+	root c:\corkdev\devcorkcaddy\phpsite
+
+	startup "c:\php7\php-cgi.exe" -b 45232 &
+	fastcgi /  localhost:45232 php
+
+	errors c:\corkdev\logs\phpsite-error.log
+	log c:\corkdev\logs\phpsite-log.log
+
+}

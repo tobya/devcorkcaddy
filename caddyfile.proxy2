@@ -1,0 +1,7 @@
+cif.devcork.toflidium.com  {
+	
+	proxy /bing2/ http://cookingisfun.ie {
+	  without /bing2
+	}
+
+}
