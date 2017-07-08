@@ -1,0 +1,18 @@
+ #	Will match any request to this server and attempt to generate a TLS cert if not present
+ :80 :443 {
+	
+  	tls {
+  	
+  	max_certs 100
+
+  	}
+
+	startup "c:\php7\php-cgi.exe" -b 45132 &
+	fastcgi /  localhost:45132 php
+
+	errors c:\corkdev\logs\phpallsite-error.log
+	log / c:\corkdev\logs\phpallsite-log.log "{remote} - {user} [{when}] \"{method}  {host} {uri} {proto}\" {status} {size}"
+
+    root C:\CorkDev\devcorkcaddy\allsite
+
+}
