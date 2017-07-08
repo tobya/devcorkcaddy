@@ -10,3 +10,8 @@ devcork.toflidium.com localhost:80 {
 	log c:\corkdev\logs\phpsite-log.log
 
 } 	
+
+
+
+# When running PHP with Fast-cgi on WINDOWS you must set the following 
+# set PHP_FCGI_MAX_REQUESTS=0

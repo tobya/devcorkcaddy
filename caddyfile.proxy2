@@ -1,7 +1,5 @@
-cif.devcork.toflidium.com  {
+secureframework.devcork.toflidium.com  {
 	
-	proxy /bing2/ http://cookingisfun.ie {
-	  without /bing2
-	}
-
+	proxy / localhost:8080
+	log scf.log
 }

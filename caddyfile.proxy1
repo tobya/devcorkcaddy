@@ -1,5 +1,4 @@
-devcork.toflidium.com localhost:80 {
+cooking.devcork.toflidium.com:80 devcork.toflidium.com localhost:80 {
 	
-	proxy / http://cookingisfun.ie
-
+	proxy / http://letters.cookingisfun.ie/
 }
