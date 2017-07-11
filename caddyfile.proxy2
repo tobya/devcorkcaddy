@@ -1,4 +1,4 @@
- framework7.devcork.toflidium.com  {
+ framework17.devcork.toflidium.com  {
 	
 	proxy / localhost:8080 {
 	transparent

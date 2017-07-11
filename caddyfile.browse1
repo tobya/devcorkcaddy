@@ -1,4 +1,4 @@
-devcork.toflidium.com localhost:80 {
+devcork.toflidium.com {
 	
 	root C:\Users\tobyallen\Downloads
 	browse
