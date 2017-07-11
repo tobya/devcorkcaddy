@@ -1,5 +1,7 @@
-secureframework.devcork.toflidium.com  {
+secureframework.devcork.toflidium.com framework.devcork.toflidium.com  {
 	
-	proxy / localhost:8080
+	proxy / localhost:8080 {
+	transparent
+	}
 	log scf.log
 }

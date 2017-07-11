@@ -1,6 +1,6 @@
-framework.devcork.toflidium.com:8080 localhost:8080 {
+framework.devcork.toflidium.com:8080 secureframework.devcork.toflidium.com:8080  localhost:8080 {
 
 	tls off
-	root C:\CorkDev\devcorkcaddy\framework7\hn\src
+	root C:\CorkDev\devcorkcaddy\framework7\
 	log
 }
